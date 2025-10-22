@@ -1,0 +1,13 @@
+# Binaries and executables
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Generated Go database files
+/internal/database
+
+# Go build output
+/gator
+gator
