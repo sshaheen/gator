@@ -13,8 +13,8 @@ You will need Postgres and Go installed on your system to run this application
 You also need to set up a .gatorconfig.json file in your home directory with the following contents:
 
 {  
- DbURL string `json:"db_url"`  
- CurrentUserName string `json:"current_user_name"`  
+ "db_url":"[VALUE]",  
+ "current_user_name":"[VALUE]"    
 }
 
 ## Build Process
