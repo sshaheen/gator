@@ -14,9 +14,12 @@ You also need to set up a .gatorconfig.json file in your home directory with the
  CurrentUserName string `json:"current_user_name"`  
 }
 
+## Build Process
+
 To run the application you first need to build it using the build.sh script  
 Then you should be able to run the executable like so gator [command]
 
+## Usage
 Some examples:
 
 - gator addfeed [feed name] [url]
