@@ -1,4 +1,7 @@
-# Blog Aggregator
+# Blog Aggregator  
+
+## Description  
+This program allows you to create users which can follow RSS feeds and get blog posts from them.
 
 ## Dependencies
 
@@ -20,10 +23,12 @@ To run the application you first need to build it using the build.sh script
 Then you should be able to run the executable like so gator [command]
 
 ## Usage
-Some examples:
+
+In order to truly test the program and its capabilities you will need to run commands in a specific order for the best experience.  
+I suggest you follow these steps:  
 
 - gator addfeed [feed name] [url]
 - gator register [username]
 - gator follow [feed url]
-- gator agg [00s00m00h]
+- gator agg [time duration] (format: 00s00m00h)
 - gator browse [num posts] (just a number)
