@@ -19,7 +19,7 @@ func FollowHandler(s *app.State, cmd Command, current_user database.User) error 
 
 	feed, err := s.DB.GetFeedByURL(context.Background(), input_url)
 	if err != nil {
-		return err
+		return fmt.Errorf("please use gator addfeed [URL] before trying to follow a feed")
 	}
 
 	params := database.CreateFeedFollowParams{
